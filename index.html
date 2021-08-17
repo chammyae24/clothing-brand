@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Dresses Clothing Brand</title>
+		<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"/>
+		<link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&display=swap" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="CSS/style.css">
+		<style type="text/css">
+			.video{
+				display: flex;
+				justify-content: center;
+				padding: 30px;
+			}
+			/*@media screen and (max-width: 952px){
+				#header-img{
+					padding: 5px;
+				}
+			}*/
+			@media screen and (max-width: 1200px){
+				#pricing{
+					display: grid;
+					grid-template-columns: 6fr;
+					grid-template-rows: 2fr 2fr 2fr;
+					width: 80%;
+					margin: 15px 10%;
+				}
+				footer .blank{
+					display: none;
+				}
+				footer .footer{
+					width: 100vw;
+					height: auto;
+				}
+			}
+			@media screen and (max-width: 888px){
+				.check-button{
+					display: block;
+				}
+				#header{padding: 0;}
+				#header-img{padding: 10px;}
+				#nav-bar{padding: 0;}
+				#nav-bar ul{
+					position: fixed;
+					width: 100%;
+					height: 100vh;
+					background-color: #52d3d8;
+					text-align: center;
+					left: -100%;
+					transition: all 0.5s;
+				}
+				.nav-bar li{
+					display: block;
+					font-size: 30px;
+					padding: 50px;
+					margin: 50px 0;
+					line-height: 30px;
+				}
+				#check:checked~.nav-bar{
+					left: 0;
+				}
+				.nav-bar li a:hover{
+					border-bottom: 1px solid #151515;
+					color: #151515;
+				}
+				#video{
+					display: block;
+					text-align: center;
+				}
+			}
+			@media screen and (max-width: 600px){
+				#features{
+					display: grid;
+					grid-template-columns: 6fr;
+					grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+					padding: 30px 5%%;
+				}
+				#features .icons{margin: 1px 5px;}
+				#video{
+					display: block;
+					margin: auto;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<header id="header">
+			<nav id="nav-bar">
+				<input id="check" type="checkbox" name="">
+				<label for="check" class="check-button"><i class="fas fa-bars"></i></label>
+				<img id="header-img" src="https://raw.githubusercontent.com/chammyae24/clothing-brand/My-Assignment/images/logo.jpg" alt="company logo" width="200px">
+				<ul class="nav-bar">
+					<li><a class="nav-link" href="#features">Features</a></li>
+					<li><a class="nav-link" href="#hiw">How It Works</a></li>
+					<li><a class="nav-link" href="#pricing">Pricing</a></li>
+				</ul>
+			</nav>
+		</header>
+		<div class="empty"></div>
+		<form id="form" action=" https://www.freecodecamp.com/email-submit">
+			<input id="email" type="email" name="email" placeholder="Enter your email..."><br>
+			<input id="submit" type="submit" name="email" value="GET STARTED">
+		</form>
+		<section id="features">
+			<div class="icons">
+				<i class="fa fa-3x fa-fire"></i>
+			</div>
+			<div>
+				<h2>Premium Materials</h2>
+				<p>Our products use the high quality Cotton, Cellulosic fibres/viscose, Wool, Silk, Leather, Experimental fabrics, Bast fibres, Notions and hardware.</p>
+			</div>
+			<div class="icons">
+				<i class="fa fa-3x fa-truck"></i>
+			</div>
+			<div>
+				<h2>Fast Shipping</h2>
+				<p>We make sure you recieve your clothing products as soon as we have finished making them. We also provide free returns if you are not satisfied.</p>
+			</div>
+			<div class="icons">
+				<i class="fa fa-3x fa-battery-full" aria-hidden="true"></i>
+			</div>
+			<div>
+				<h2>Quality Assurance</h2>
+				<p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the qualities of your dresses.</p>
+			</div>
+		</section>
+		<section id="hiw" class="video">
+			<iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/DdFnz8j9trQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</section>
+		<section id="pricing">
+			<div class="price">
+				<h3>Shirts</h3>
+				<h1>Up to 30% off</h1>
+				<p><a href="">Hugo Boss</a></p>
+				<p><a href="">Ralph Lauren</a></p>
+				<p><a href="">Michael Kors</a></p>
+				<p><a href="">Calvin Klein</a></p>
+				
+			</div>
+			<div class="price">
+				<h3>Dresses</h3>
+				<h1>Up to 30% off</h1>
+				<p><a href="">HERMES</a></p>
+				<p><a href="">PRADA</a></p>
+				<p><a href="">HOUSE OF VERSACE</a></p>
+				<p><a href="">ARMANI</a></p>
+			</div>
+			<div class="price">
+				<h3>Accessories</h3>
+				<h1>Up to 50% off</h1>
+				<p><a href="">RAY-BAN</a></p>
+				<p><a href="">Adidas</a></p>
+				<p><a href="">Timberland</a></p>
+				<p><a href="">Converse</a></p>
+			</div>
+		</section>
+		<footer>
+			<div class="blank"></div>
+			<div class="footer">
+				<p><a href="">Privacy</a>||</p>
+				<p><a href="">Terms</a>||</p>
+				<p><a href="">Contact</a></p><br>
+				<p>Copyright 2021, Original Dresses</p> <br>
+				<p>Design by<a href=""> -Cham Myae Zaw-.</a></p>
+			</div>
+			<div class="blank"></div>
+		</footer>
+	</body>
+	<script type="text/javascript" src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</html>

@@ -1,0 +1,173 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background-color: black;
+	color: #f0f7f8;
+	font-family: 'Crimson Pro', sans-serif;
+	/*font-family: 'Fredoka One', sans-serif;*/
+}
+
+/* This is where nav-bar starts */
+#header{
+	background-color: #151515;
+	padding: 5px;
+	font-size: 20px;
+	width: 100%;
+	height: auto;
+	position: fixed;
+	overflow: hidden;
+	z-index: +1;
+}
+#nav-bar{
+	padding: 5px;
+}
+#header-img{
+	margin: 0 80px;
+	padding: 7px 0;
+}
+#nav-bar ul{
+	list-style-type: none;
+	float: right;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+.nav-bar li{
+	display: inline-block;
+	padding: 10px;
+}
+.nav-bar li a{
+	text-decoration: none;
+	color: #f0f7f8;
+	font-family: 'Fredoka One', sans-serif;
+	transition: all 0.3s ease;
+}
+.nav-bar li a:hover{
+	border-bottom: 1px solid #13f017;
+	color: #7ed8cf;
+}
+.check-button{
+	float: right;
+	padding: 13px;
+	cursor: pointer;
+	display: none;
+}
+#check{display: none;}
+.check-button:hover{
+	color: #7ed8cf;
+}
+.empty{
+	width: 100%;
+	height: 80px;
+}
+/* This is where nav-bar ends */
+
+/* This is where form starts */
+#form{
+	display: block;
+	text-align: center;
+}
+#form input[type='email']{
+	border: none;
+	width: 300px;
+	padding: 10px;
+	margin: 5px;
+	font-family: 'Crimson Pro', sans-serif;
+}
+#form input[type='submit']{
+	border: none;
+	width: 150px;
+	padding: 10px;
+	margin: 5px;
+	cursor: pointer;
+	background-color: #7ed8cf;
+	color: #f0f7f8;
+	font-family: 'Crimson Pro', sans-serif;
+}
+#form input[type='submit']:hover{
+	background-color: #52d3d8;
+}
+#form input[type='email']:focus{
+	outline: #52d3d8;
+}
+/* This is where form ends */
+
+/* This is where first section starts */
+#features{
+	display: grid;
+	grid-template-rows: 2fr 2fr 2fr;
+	grid-template-columns: 2fr 4fr;
+	padding: 30px 20%;
+}
+#features div{
+	padding: 20px;
+}
+#features div h2{
+	color: #52d3d8;
+}
+#features .icons{
+	color: #52d3d8;
+	margin-top: 8px;
+}
+/* This is where first section ends */
+
+/* This is where second section starts */
+#pricing{
+	display: grid;
+	grid-template-columns: 2fr 2fr 2fr;
+	margin: 15px 15em;
+	padding: 10px;
+	font-family: 'Fredoka One', sans-serif;
+	font-weight: 10px;
+}
+#pricing .price{
+	margin: 10px;
+	border: 1px solid #52d3d8;
+}
+#pricing .price h3{
+	background-color: #151515;
+	padding: 20px;
+	text-align: center;
+}
+#pricing .price h1{
+	padding: 20px;
+	text-align: center;
+}
+#pricing .price p{
+	padding: 20px;
+	text-align: center;
+	font-size: 15px;
+}
+#pricing .price p a{
+	text-decoration: none;
+	color: #f0f7f8;
+}
+/* This is where second section ends */
+
+/* This is where footer starts */
+footer{
+	display: grid;
+	grid-template-columns: 1fr 4fr 1fr;
+	font-size: 10px;
+}
+footer a{
+	float: right;
+}
+footer p{
+	float: right;
+	word-spacing: 3px;
+}
+footer a{
+	text-decoration: none;
+	color: #f0f7f8;
+}
+.footer{
+	background-color: #151515;
+	padding: 5px 10px;
+}
+.footer a{
+	color: #7ed8cf;
+}
+/* This is where footer ends */
